@@ -461,8 +461,8 @@ github.com/vishvananda/netlink v1.2.1-beta.2/go.mod h1:twkDnbuQxJYemMlGd4JFIcuhg
 github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae/go.mod h1:DD4vA1DwXk04H54A1oHXtwZmA0grkVMdPxx/VGLCah0=
 github.com/vishvananda/netns v0.0.4 h1:Oeaw1EM2JMxD51g9uhtC0D7erkIjgmj8+JZc26m1YX8=
 github.com/vishvananda/netns v0.0.4/go.mod h1:SpkAiCQRtJ6TvvxPnOSyH3BMl6unz3xZlaprSwhNNJM=
-github.com/willnorris/coredns-tailscale v0.0.0-20231030024812-886a2f8f63b9 h1:GLFWtt1A9WCWB4R5saDGAzuJCOGYjkGnMke0C2Miclg=
-github.com/willnorris/coredns-tailscale v0.0.0-20231030024812-886a2f8f63b9/go.mod h1:Y5PKsQTKs05QxygTpC2kwCzMl8QiZqpIjlH3tRjcytk=
+github.com/willnorris/coredns-tailscale v0.0.0-20231030082136-d1ec2a920430 h1:yXClt1VO+f1w5RDK8Gq8itlvJe5yJSibaWxaR4qwjP8=
+github.com/willnorris/coredns-tailscale v0.0.0-20231030082136-d1ec2a920430/go.mod h1:Y5PKsQTKs05QxygTpC2kwCzMl8QiZqpIjlH3tRjcytk=
 github.com/x448/float16 v0.8.4 h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=
 github.com/x448/float16 v0.8.4/go.mod h1:14CWIYCyZA/cWjXOioeEpHeN/83MdbZDRQHoFcYsOfg=
 github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f/go.mod h1:N2zxlSyiKSe5eX1tZViRH5QA0qijqEDrYZiPEAiq3wU=

@@ -1,5 +1,12 @@
-ipn.willnorris.net:53 {
-  tailscale willnorris.com
-  log plugin/tailscale
+ipn.willnorris.net {
+  hosts {
+    # some resolvers will recheck the entries for DNS glue records at the delegate nameserver.
+    # Manually specify these hosts, since they won't appear in the Tailscale node list.
+    37.16.12.98 ns1.ipn.willnorris.net ns2.ipn.willnorris.net
+    fallthrough
+  }
+  tailscale ipn.willnorris.net
+  log
   errors
 }
+# vim: ft=caddyfile

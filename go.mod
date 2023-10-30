@@ -7,7 +7,7 @@ require (
 	github.com/damomurf/coredns-tailscale v0.2.5
 )
 
-replace github.com/damomurf/coredns-tailscale => github.com/willnorris/coredns-tailscale v0.0.0-20231030024812-886a2f8f63b9
+replace github.com/damomurf/coredns-tailscale => github.com/willnorris/coredns-tailscale v0.0.0-20231030082136-d1ec2a920430
 
 require (
 	cloud.google.com/go/compute v1.23.0 // indirect
