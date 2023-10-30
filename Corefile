@@ -1,0 +1,5 @@
+ipn.willnorris.net:53 {
+  tailscale willnorris.com
+  log plugin/tailscale
+  errors
+}
