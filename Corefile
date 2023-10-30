@@ -5,7 +5,9 @@ ipn.willnorris.net {
     37.16.12.98 ns1.ipn.willnorris.net ns2.ipn.willnorris.net
     fallthrough
   }
-  tailscale ipn.willnorris.net
+  tailscale ipn.willnorris.net {
+    authkey {$TS_AUTHKEY}
+  }
   log
   errors
 }
