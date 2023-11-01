@@ -1,4 +1,4 @@
-module github.com/willnorris/dns
+module github.com/willnorris/ipn-dns
 
 go 1.21.1
 
