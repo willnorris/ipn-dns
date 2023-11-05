@@ -14,6 +14,8 @@ RUN setcap cap_net_bind_service=+ep dns
 # Final image with just dns binary
 FROM cgr.dev/chainguard/static:latest
 
+ENV HOME /root
+
 COPY --from=build /work/dns /dns
 COPY ./Corefile /Corefile
 
