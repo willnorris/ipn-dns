@@ -1,10 +1,7 @@
-app = "willnorris-ipn-dns"
-primary_region = "sjc"
-kill_signal = "SIGINT"
-kill_timeout = "5s"
+# fly.toml docs and default values at https://fly.io/docs/reference/configuration/
 
-[build]
-  dockerfile = "Dockerfile"
+app = "willnorris-ipn-dns"
+primary_region = "lax"
 
 # TS_AUTHKEY specified in fly secrets
 
