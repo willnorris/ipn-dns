@@ -1,9 +1,14 @@
 ipn.willnorris.net {
-  hosts {
-    # some resolvers will recheck the entries for DNS glue records at the delegate nameserver.
-    # Manually specify these hosts, since they won't appear in the Tailscale node list.
-    37.16.12.98 ns1.ipn.willnorris.net ns2.ipn.willnorris.net
-    fallthrough
+  records {
+    # Some resolvers will recheck for NS records at the delegate nameserver.
+    # Manually specify these here, since they won't appear in the Tailscale node list.
+    @   300 IN NS ns1.ipn.willnorris.net.
+    @   300 IN NS ns2.ipn.willnorris.net.
+
+    ns1 300 IN A  37.16.12.98
+    ns2 300 IN A  37.16.12.98
+
+    $OPTION fallthrough
   }
   tailscale ipn.willnorris.net {
     authkey {$TS_AUTHKEY}
