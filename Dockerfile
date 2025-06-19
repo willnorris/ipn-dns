@@ -1,5 +1,5 @@
 FROM --platform=$BUILDPLATFORM cgr.dev/chainguard/wolfi-base as build
-RUN apk update && apk add build-base git libcap-utils openssh go-1.22
+RUN apk update && apk add build-base git libcap-utils openssh go-1.24
 
 WORKDIR /work
 
